@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Đình Nguyên Fly - Giới thiệu &amp; mua bán diều sáo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Thanh điều hướng -->
+  <header class="header">
+    <div class="container nav">
+      <a href="#" class="logo">Đình Nguyên Fly</a>
+      <nav class="menu">
+        <a href="#gioi-thieu">Giới thiệu</a>
+        <a href="#san-pham">Diều sáo</a>
+        <a href="#dat-mua">Đặt mua</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Phần mở đầu -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <h1>Diều Sáo Đình Nguyên Fly</h1>
+        <p>
+          Chuyên cung cấp diều sáo carbon, sáo gỗ và phụ kiện thả diều cho người mới chơi đến người đam mê lâu năm.
+        </p>
+        <a href="#san-pham" class="btn">Xem các mẫu diều sáo</a>
+      </div>
+
+      <!-- Ảnh minh họa lấy từ thư mục assets/images/ -->
+      <div class="hero-img">
+        <img src="assets/ca map 4m va hoa coi d50.jpg" alt="anh cua toi" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Phần giới thiệu -->
+  <section id="gioi-thieu" class="section">
+    <div class="container">
+      <h2>Giới thiệu về Đình Nguyên Fly</h2>
+      <p class="intro-text">
+        Đình Nguyên Fly là cửa hàng nhỏ giới thiệu và bán các dòng diều sáo truyền thống kết hợp vật liệu cao cấp tạo nên loại diều vẫn giữ được truyền thống nhưng chất liệu sẽ tốt hơn. Mỗi sản phẩm đều được kiểm tra độ cân bằng cánh và tiếng sáo trước khi giao.
+      </p>
+      <div class="grid-3">
+        <div class="info-box">
+          <h3>Khung diều cân đối 99,9%</h3>
+          <p>Carbon bền, vào dây chạc chuẩn giúp diều dễ lên và giữ gió ổn định.</p>
+        </div>
+        <div class="info-box">
+          <h3>Tiếng sáo vang ấm</h3>
+          <p>Sáo được chỉnh miệng thổi kỹ, âm thanh trầm đều, hạn chế bị chói khi gió lớn.</p>
+        </div>
+        <div class="info-box">
+          <h3>Dễ sử dụng</h3>
+          <p>Phù hợp cho cả người mới tập chơi, đi dã ngoại hoặc thả cùng bạn bè.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Danh sách sản phẩm -->
+  <section id="san-pham" class="section bg-light">
+    <div class="container">
+      <h2>Danh sách diều sáo &amp; phụ kiện</h2>
+      <div class="grid-3">
+
+        <div class="card">
+          <img src="assets/co do sao vang 4m5 va chuong d80.jpg" alt="Combo Diều Sáo 4m5" class="card-img" />
+          <h3>Combo Diều Sáo 4.5m và Chuông D80</h3>
+          <p class="desc">Diều carbon vải riptop chiến mọi loại bão, sáo đủ để khiến cả làng mất ngủ.</p>
+          <p class="price">5.500.000đ</p>
+          <button type="button" class="btn btn-sm chon-sp" data-ten="Combo Diều Sáo 4.5m">Chọn mẫu này</button>
+        </div>
+
+        <div class="card">
+          <img src="assets/co anh 4m5.jpg" alt="Diều Sáo Gió Lớn 4.5m" class="card-img" />
+          <h3>Diều Sáo Gió Lớn 4.5m</h3>
+          <p class="desc">Khung chắc chắn, phù hợp bãi rộng gió mạnh, giữ dáng tốt khi bay cao.</p>
+          <p class="price">4.500.000đ</p>
+          <button type="button" class="btn btn-sm chon-sp" data-ten="Diều Sáo Gió Lớn 4.5m">Chọn mẫu này</button>
+        </div>
+
+        <div class="card">
+          <img src="assets/combo batman 3m6 va chuong d50.jpg" alt="Diều 3m6 và chuông d50" class="card-img" />
+          <h3>Combo diều sáo 3.6m và Chuông d50</h3>
+          <p class="desc">Diều full carbon vải riptop khung nặng gió nhưng chơi được tất cả mọi loại gió bão,phù hợp cho người chơi lâu năm thích cảm giác bay bổng.</p>
+          <p class="price">4.320.000đ</p>
+          <button type="button" class="btn btn-sm chon-sp" data-ten="Diều 3m6 và chuông d50">Chọn mẫu này</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Form đặt mua cơ bản -->
+  <section id="dat-mua" class="section">
+    <div class="container">
+      <h2>Đặt mua diều sáo</h2>
+      <form id="formDatMua" class="order-form">
+        <div class="form-group">
+          <label for="hoTen">Họ và tên</label>
+          <input type="text" id="hoTen" placeholder="Nhập họ tên của bạn" required />
+        </div>
+
+        <div class="form-group">
+          <label for="soDienThoai">Số điện thoại</label>
+          <input type="tel" id="soDienThoai" placeholder="Nhập số điện thoại" required />
+        </div>
+
+        <div class="form-group">
+          <label for="sanPhamChon">Sản phẩm muốn mua</label>
+          <select id="sanPhamChon">
+            <option value="Combo Diều Sáo 4m5">Combo Diều Sáo 4m5 - 5.500.000đ</option>
+            <option value="Diều Sáo Gió Lớn 4.5m">Diều Sáo Gió Lớn 4.5m - 4.500.000đ</option>
+            <option value="Diều 3m6 và chuông d50">Diều 3m6 và chuông d50 - 4.320.000đ</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="ghiChu">Ghi chú địa chỉ / yêu cầu</label>
+          <textarea id="ghiChu" rows="3" placeholder="Ví dụ: Giao tại Hưng Yên hoặc cần tư vấn thêm"></textarea>
+        </div>
+
+        <button type="submit" class="btn">Gửi đơn đặt mua</button>
+        <p id="thongBao" class="notice"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Chân trang -->
+  <footer class="footer">
+    <div class="container">
+      <p><strong>Nguyên Fly</strong> - Website giới thiệu &amp; mua bán diều sáo</p>
+      <p>Liên hệ: 0965 661 487 | Email: nguyenvu270908@gmail.com</p>
+    </div>
+  </footer>
+
+  <script>
+    const nutChonList = document.querySelectorAll(".chon-sp");
+    const selectSanPham = document.getElementById("sanPhamChon");
+    const formDatMua = document.getElementById("formDatMua");
+    const thongBao = document.getElementById("thongBao");
+
+    nutChonList.forEach(function (nut) {
+      nut.addEventListener("click", function () {
+        const tenSp = nut.getAttribute("data-ten");
+        selectSanPham.value = tenSp;
+        document.getElementById("dat-mua").scrollIntoView({ behavior: "smooth" });
+      });
+    });
+
+    formDatMua.addEventListener("submit", function (event) {
+      event.preventDefault();
+      const tenKhach = document.getElementById("hoTen").value.trim();
+      const sp = selectSanPham.value;
+      thongBao.textContent = "Cảm ơn " + tenKhach + "! Bạn đã đăng ký mua: " + sp + ".";
+      formDatMua.reset();
+      selectSanPham.value = sp;
+    });
+  </script>
+</body>
+</html>
